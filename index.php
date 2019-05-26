@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Alagoas notícias</title>
+    <title>Acre notícias</title>
     <link rel="stylesheet" href="css/materialize.min.css">
 	<link rel="stylesheet" href="css/main.css">
     <script src="js/jquery.min.js"></script>
@@ -102,7 +102,7 @@
     }
     return $subdomios_lista;
   }
-  function main($dominio="https://g1.globo.com/al/alagoas/",$palavrasChave=["alagoas","noticia"]){
+  function main($dominio="https://g1.globo.com/ac/acre/",$palavrasChave=["acre","noticia"]){
     $lista_sites = buscaTopico($dominio,$palavrasChave);
     
     $tamanho_lista = count( $lista_sites)-1;

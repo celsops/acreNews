@@ -89,8 +89,8 @@
         }
         return $subdomios_lista;
       }
-      $dominio = "https://g1.globo.com/al/alagoas/";
-      $palavrasChave = ["alagoas","noticia"];
+      $dominio = "https://g1.globo.com/ac/acre/";
+      $palavrasChave = ["acre","noticia"];
       $lista_sites = buscaTopico($dominio,$palavrasChave);
       
       echo "<div>";
